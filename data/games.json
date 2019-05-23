@@ -1,0 +1,12 @@
+{
+  "games": {
+    "roulette": {
+      "version": "1.0.0",
+      "description": "A Shot Roulette game"
+    },
+    "liar": {
+      "version": "1.0.0",
+      "description": "A Counter of Liar game"
+    }
+  }
+}
