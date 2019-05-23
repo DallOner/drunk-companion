@@ -1,12 +1,22 @@
 {
   "games": {
     "roulette": {
-      "version": "1.0.0",
-      "description": "A Shot Roulette game"
+      "name": "Roulette Shots",
+      "description": "A Shot Roulette game",
+      "image": "/assets/img/roulette.jpeg",
+      "version": "1.0.0"
     },
     "liar": {
-      "version": "1.0.0",
-      "description": "A Counter of Liar game"
+      "name": "Liar Liar Liar!",
+      "description": "A Counter of Liar game",
+      "image": "/assets/img/liar.jpg",
+      "version": "1.0.0"
+    },
+    "test": {
+      "name": "Test Name Game",
+      "description": "Test Description Game",
+      "image": "/assets/img/no-img-placeholder.png",
+      "version": "alpha-beta-omega"
     }
   }
 }
