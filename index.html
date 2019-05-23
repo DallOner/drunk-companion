@@ -37,6 +37,24 @@
         <li><a href="mobile.html">Mobile</a></li>
       </ul>
 
+      <div 
+        v-for="game in games"
+        class="home-list">
+        <div class="home-item">
+          <div class="home-item__image">
+            <img :src="game.image" alt="game.id">
+          </div>
+          <div class="home-item__info">
+            <div class="home-item__info-name">
+              <p>{{nombre}}</p>
+            </div>
+            <div class="home-item__info-desc">
+              <p>{{descripcion}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
       <!-- <pre>{{ $data }}</pre> -->
     </div>
