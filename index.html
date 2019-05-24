@@ -41,7 +41,9 @@
       <div 
         v-for="game in games"
         class="home-list">
-        <div class="home-item">
+        <div 
+          v-on:click="gamePick(game.id)"
+          class="home-item">
           <div class="home-item__image">
             <img :src="game.image" alt="game.id">
           </div>

@@ -27,7 +27,24 @@ const vm = new Vue({
     }
     ]
   },
-  methods: {}
+  methods: {
+    gamePick: function(game) {
+      let gameSelected = game;
+      switch(gameSelected) {
+        case 'roulette': 
+          console.log('Ruletaaa')
+          break;
+        
+        case 'liar':
+          console.log('Mentiroso')
+          break;
+
+        case 'test':
+          console.log('test')
+          break;
+      }
+    }
+  }
 });
 
 $(document).ready(function(){
