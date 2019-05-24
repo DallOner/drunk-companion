@@ -2,6 +2,7 @@
   width: 100%;
   max-height: 96px;
   display: flex;
+  border-bottom: 1px solid #f1f2f3;
 }
 
 .home-item__image {
@@ -14,4 +15,18 @@
 
 .home-item__image img {
   width: 100%;
+}
+
+.home-item__info-name {
+  font-family: 'Roboto';
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 22px;
+}
+
+.home-item__info-desc {
+  font-family: 'Open Sans Condensed';
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 1px;
 }

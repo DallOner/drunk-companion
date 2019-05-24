@@ -7,5 +7,6 @@
 @import 'assets/css/components/_home-item.css';
 /* END Components import */
 
-/* Medias import */
-/* END Medias import */
+/* Configs import */
+@import 'assets/css/config/_fonts.css';
+/* END Configs import */
