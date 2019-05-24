@@ -5,7 +5,8 @@ const vm = new Vue({
       id: 'roulette',
       name: 'Roulette Shots',
       description: 'A Shot Roulette game',
-      image: 'assets/img/roulette.jpeg',
+      image: 'assets/img/roulette.jpg',
+      url: '#',
       version: '1.0.0'
     },
     {
@@ -13,6 +14,7 @@ const vm = new Vue({
       name: 'Liar Liar!',
       description: 'A Counter of Liar game',
       image: 'assets/img/liar.jpg',
+      url: '#',
       version: '1.0.0'
     },
     {
@@ -20,6 +22,7 @@ const vm = new Vue({
       name: 'Test name',
       description: 'Test description',
       image: 'assets/img/no-img-placeholder.png',
+      url: '#',
       version: '1.0.0'
     }
     ]
